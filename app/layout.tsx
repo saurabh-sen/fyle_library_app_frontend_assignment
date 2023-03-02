@@ -1,3 +1,4 @@
+// import Context from '@/Context'
 import './globals.css'
 
 export const metadata = {
@@ -12,7 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      {/* <Context> */}
       <body>{children}</body>
+      {/* </Context> */}
     </html>
   )
 }
